@@ -162,12 +162,12 @@
     "images": [
         {
             "name": "basecolor_image_texture",
-            "uri": "arTryB_images/basecolor_image_texture.jpg",
+            "uri": "basecolor_image_texture.jpg",
             "mimeType": "image/jpeg"
         },
         {
             "name": "normal_image_texture",
-            "uri": "arTryB_images/normal_image_texture.png",
+            "uri": "normal_image_texture.png",
             "mimeType": "image/png"
         }
     ],
