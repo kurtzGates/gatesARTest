@@ -1,0 +1,341 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - a39c749b7f1dd68e8fcb597e3575f0bb9d09bfc8",
+        "version": "2.0",
+        "extensions": {
+            "KHR_xmp": {
+                "packet": 0
+            }
+        }
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 24912,
+            "type": "VEC3",
+            "max": [
+                1.2015069723129273,
+                1.5013749599456788,
+                2.207693099975586
+            ],
+            "min": [
+                0.001507078530266881,
+                0.30137497186660769,
+                1.457693099975586
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 24912,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 24912,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 24912,
+            "type": "SCALAR",
+            "max": [
+                24911.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 119808,
+            "type": "VEC3",
+            "max": [
+                0.06753888726234436,
+                0.20084071159362794,
+                0.06161219999194145
+            ],
+            "min": [
+                -0.06846717745065689,
+                -0.000756800000090152,
+                -0.06244595721364021
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 119808,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 119808,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 119808,
+            "type": "SCALAR",
+            "max": [
+                119807.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 298944,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 298944,
+            "byteLength": 298944,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 597888,
+            "byteLength": 199296,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 797184,
+            "byteLength": 99648,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 896832,
+            "byteLength": 1437696,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2334528,
+            "byteLength": 1437696,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3772224,
+            "byteLength": 958464,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4730688,
+            "byteLength": 479232,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 5209920,
+            "uri": "arTryB_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00006816170207457617,
+                "yfov": 0.6024156808853149,
+                "zfar": 3.7488932609558107,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "basecolor_image_texture",
+            "uri": "arTryB_images/basecolor_image_texture.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "normal_image_texture",
+            "uri": "arTryB_images/normal_image_texture.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "normalTexture": {
+                "index": 1
+            },
+            "name": "Cardboard",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.503000020980835
+            },
+            "name": "Mobius Strip Material",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "body",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Mobius Strip",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                7.295792102813721,
+                2.8751790523529054,
+                7.2957892417907719
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                1.0274333953857422,
+                -0.5292434096336365,
+                -0.4967488646507263
+            ],
+            "rotation": [
+                -0.022783242166042329,
+                0.11316439509391785,
+                0.012890121899545193,
+                0.9932314157485962
+            ],
+            "scale": [
+                1.4178844690322877,
+                1.4178842306137086,
+                1.417884111404419
+            ],
+            "mesh": 0,
+            "name": "body"
+        },
+        {
+            "translation": [
+                1.7537527084350587,
+                0.004502415657043457,
+                3.016352891921997
+            ],
+            "rotation": [
+                -0.03866971284151077,
+                -0.3149394989013672,
+                -0.11557158082723618,
+                0.9412549734115601
+            ],
+            "scale": [
+                6.383401393890381,
+                6.383401393890381,
+                6.383401393890381
+            ],
+            "mesh": 1,
+            "name": "Mobius Strip"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "basecolor_image_texture",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "normal_image_texture",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0,
+    "extensions": {
+        "KHR_xmp": {
+            "@context": {
+                "dc": "http://purl.org/dc/elements/1.1/"
+            },
+            "packets": [
+                {
+                    "dc:date": "2021-03-25T10:14:27.297-06:00",
+                    "dc:format": "model/gltf+json",
+                    "dc:title": "arTry.dn",
+                    "xmp:CreatorTool": "Adobe Dimension"
+                }
+            ]
+        }
+    },
+    "extensionsUsed": [
+        "KHR_xmp"
+    ]
+}
