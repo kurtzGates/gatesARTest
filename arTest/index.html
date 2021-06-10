@@ -10,9 +10,9 @@
     <a-scene embedded arjs>
       <a-marker preset="hiro">
         <a-entity
-          gltf-model="cornerThing.gltf"
+          gltf-model="cornerThing.gltf" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
         >
-          <a-animation attribute="rotation" dur="4000" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>
+          
         </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
